@@ -1,35 +1,39 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hleong <hleong@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/07 21:10:33 by hleong            #+#    #+#             */
-/*   Updated: 2022/09/08 18:50:38 by hleong           ###   ########.fr       */
+/*   Created: 2022/09/08 01:10:11 by hleong            #+#    #+#             */
+/*   Updated: 2022/12/08 23:40:34 by hleong           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include <stdlib.h>
 
-int	*ft_range(int min, int max);
-
-int	main(void)
+char	*ft_strjoin(int size, char **strs, char *sep)
 {
-	int	min;
-	int	max;
-	int	i;
-	int	*tab;
-	int	size;
+	char	*dest;
+	int		i;
+	int		j;
+	int		counter;
 
-	min = 1;
-	max = 10;
+	dest = (char *)malloc(sizeof(strs));
+	if (!(strs))
+		return (NULL);
 	i = 0;
-	size = max - min;
-	tab = ft_range(min, max);
+	counter = 0;
 	while (i < size)
 	{
-		printf("%d"" ", tab[i]);
+		j = 0;
+		while (strs[i][j])
+			dest[counter++] = strs[i][j++];
+		j = 0;
+		while (sep[j] != 0 && i != size - 1)
+			dest[counter++] = sep[j++];
 		i++;
 	}
+	dest[counter] = 0;
+	return (dest);
 }
