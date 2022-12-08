@@ -24,7 +24,7 @@ Completed During The Piscine (Aug 2022 - Sep 2022) at 42 Kuala Lumpur.
 - [ex04: ft_ultimate_div_mod](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C01/ex04:%20ft_ultimate_div_mod) - Store Values, Swap Them, use Div and Mod
 - [ex05: ft_putstr](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C01/ex05:%20ft_putstr) - Write a String
 - [ex06: ft_strlen](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C01/ex06:%20ft_strlen) - Get the Length of a String
-- [ex07: ft_rev_int_tab] (https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C01/ex07:%20ft_rev_int_tab) - Reverses a Given Array of Integers
+- [ex07: ft_rev_int_tab](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C01/ex07:%20ft_rev_int_tab) - Reverses a Given Array of Integers
 
 ## [C02](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C02) - Introduction To Strings and Arrays (succeeded with 55%)
 
