@@ -46,6 +46,8 @@ Completed During The Piscine (Aug 2022 - Sep 2022) at 42 Kuala Lumpur.
 - [ex03: ft_strncat](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C03/ex03:%20ft_strncat) - concatenate strings
 - [ex04: ft_strstr](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C03/ex04:%20ft_strstr) - locate a substring in a string
 
+## [C04] - Analysing String Qualities and Manipulating Ints (succeeded with 77%)
+
 ## [C05](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C05) - Mathematical Concepts in C (succeeded with 80%)
 
 - [ex00: ft_iterative_factorial](https://github.com/redbeanpao/piscine/tree/master/Piscine:%20C05/ex00:%20ft_iterative_factorial) - create a program that generates an iterative factorial
